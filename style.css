@@ -1,0 +1,52 @@
+
+.upper {
+    background-color: #1f2937;
+}
+.scnd{
+  background-color: white;
+}
+.testimonial{
+    background-color: #e5e7eb;
+}
+.calltc{
+    background-color: white;
+}
+img {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+}
+.upper{
+    display: flex;
+    flex-direction: column;
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.right-links{
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+}
+.scnd{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.container{
+    display: flex;
+}
+.lne{
+    display: flex;
+    color: white;
+    justify-content: center;
+    gap: 500px;
+}
