@@ -1,3 +1,6 @@
+*{
+    margin: 0;
+}
 .links,.info{
     display: flex;
     justify-content: space-between;
@@ -10,4 +13,24 @@
 .container{
     display: flex;
     gap: 200px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.links,.info,.end{
+    background-color: #1f2937;
+}
+.heromain{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+.logo,.end{
+    font-size: 24px;
+    color: #f9faf8;
+}
+.ll{
+    font-size: 18px;
+    color: #e5e7eb;
 }
