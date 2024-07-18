@@ -18,6 +18,7 @@ body{
 .container{
     display: flex;
     gap: 200px;
+    padding: 20px;
 }
 a{
     text-decoration: none;
@@ -47,7 +48,7 @@ img{
     height: auto;
     border-radius: 10px;
     border-width: 10px;
-    border-style: solid;
+    border-style:class="inward" solid;
     border-color: rgb(206, 206, 228);
 }
 .herom{
@@ -87,4 +88,21 @@ button{
 }
 .btn{
     margin-top: 20px;
+}
+.inward{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.end{
+    padding: 30px;
+}
+.testimonial{
+    background-color: #e5e7eb;
+}
+.test-response{
+    width: 800px;
+    font-size: 36px;
+    font-style: italic;
 }
